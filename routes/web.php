@@ -1,6 +1,7 @@
 
 <?php
 
+use App\Http\Controllers\Admin\GuruController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
