@@ -24,11 +24,25 @@ Route::middleware('auth')->group(function () {
         abort(403, 'Role tidak dikenali.');
     })->name('dashboard');
 
-    // Dashboard Admin
     Route::middleware('role:admin')->group(function () {
+
+        // Dashboard Admin
         Route::get('/admin/dashboard', function () {
             return view('admin.dashboard');
         })->name('admin.dashboard');
+
+        // Kelola Akun Guru
+        Route::get('/admin/guru', [GuruController::class, 'index'])
+            ->name('admin.guru.index');
+
+        Route::get('/admin/guru/create', [GuruController::class, 'create'])
+            ->name('admin.guru.create');
+
+        Route::post('/admin/guru', [GuruController::class, 'store'])
+            ->name('admin.guru.store');
+
+        Route::delete('/admin/guru/{guru}', [GuruController::class, 'destroy'])
+            ->name('admin.guru.destroy');
     });
 
     // Dashboard Guru
