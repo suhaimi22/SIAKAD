@@ -53,7 +53,7 @@
 
                     <div class="flex gap-3">
                         <button type="submit"
-                            class="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700">
+                            style="background-color:#2563eb; color:#ffffff; padding:12px 22px; border-radius:8px; font-weight:bold; border:none; cursor:pointer;">
                             Simpan Akun
                         </button>
 
