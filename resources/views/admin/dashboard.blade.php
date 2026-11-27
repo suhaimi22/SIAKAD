@@ -39,7 +39,7 @@
                             Kelola akun dan data guru.
                         </p>
                         <p class="text-blue-700 font-semibold mt-4">
-                            Lihat Data Guru →
+                            Lihat Data Guru
                         </p>
                     </a>
 
