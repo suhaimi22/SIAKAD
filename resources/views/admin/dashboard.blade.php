@@ -17,6 +17,14 @@
                     Anda masuk sebagai Administrator SIAKAD.
                 </p>
 
+                <!-- Tombol Kelola Akun Guru -->
+                <div class="mt-6">
+                    <a href="{{ route('admin.guru.index') }}"
+                       class="inline-block bg-blue-600 text-white px-5 py-3 rounded-lg hover:bg-blue-700">
+                        Kelola Akun Guru
+                    </a>
+                </div>
+
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
                     <div class="bg-blue-100 p-6 rounded-lg">
                         <h4 class="font-bold text-blue-800">Data Guru</h4>
