@@ -30,7 +30,7 @@
                             Lihat jadwal pelajaran.
                         </p>
                         <p style="color:#1d4ed8; font-weight:bold; margin-top:16px;">
-                            Lihat Jadwal →
+                            Lihat Jadwal 
                         </p>
                     </a>
 
@@ -44,7 +44,7 @@
                             Kelola absensi siswa.
                         </p>
                         <p style="color:#15803d; font-weight:bold; margin-top:16px;">
-                            Kelola Absensi →
+                            Kelola Absensi 
                         </p>
                     </a>
 
@@ -58,7 +58,7 @@
                             Kelola nilai siswa.
                         </p>
                         <p style="color:#b45309; font-weight:bold; margin-top:16px;">
-                            Kelola Nilai →
+                            Kelola Nilai 
                         </p>
                     </a>
 
