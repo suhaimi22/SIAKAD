@@ -21,7 +21,7 @@
                     <h3 class="text-lg font-bold">Daftar Akun Guru</h3>
 
                     <a href="{{ route('admin.guru.create') }}"
-                       class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                    style="display:inline-block; background-color:#2563eb; color:#ffffff; padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:bold;">
                         + Tambah Guru
                     </a>
                 </div>
